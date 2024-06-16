@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Garamond;
+  src: url("./assets/fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf");
+}
+
+body {
+  font-family: Garamond;
+}
