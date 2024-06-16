@@ -356,12 +356,14 @@ export default function BookCard({ book, deleteBook, updateBook }) {
           </Text>
           <Icon as={FaStar} color={starColor} />
         </Box>
-        <Box
-          backgroundColor="gray.200"
+        <Image
+          src="../assets/imgs/300.png"
+          alt={book.title}
+          objectFit="cover"
           borderRadius="md"
-          width="100%"
-          height="300px"
-          marginBottom={4}
+          w="100%"
+          h="auto"
+          mb={4}
         />
         <Heading as="h3" size="sm" mb={2} color={headingColor} fontSize="sm">
           {book.name}
