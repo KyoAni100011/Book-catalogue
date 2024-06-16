@@ -356,14 +356,12 @@ export default function BookCard({ book, deleteBook, updateBook }) {
           </Text>
           <Icon as={FaStar} color={starColor} />
         </Box>
-        <Image
-          src="https://via.placeholder.com/300"
-          alt={book.title}
-          objectFit="cover"
+        <Box
+          backgroundColor="gray.200"
           borderRadius="md"
-          w="100%"
-          h="auto"
-          mb={4}
+          width="100%"
+          height="300px"
+          marginBottom={4}
         />
         <Heading as="h3" size="sm" mb={2} color={headingColor} fontSize="sm">
           {book.name}
