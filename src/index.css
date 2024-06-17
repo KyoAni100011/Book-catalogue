@@ -1,8 +1,5 @@
-@font-face {
-  font-family: Garamond;
-  src: url("./assets/fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf");
-}
-
 body {
-  font-family: Garamond;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }

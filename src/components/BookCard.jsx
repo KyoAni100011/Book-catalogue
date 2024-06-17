@@ -357,7 +357,7 @@ export default function BookCard({ book, deleteBook, updateBook }) {
           <Icon as={FaStar} color={starColor} />
         </Box>
         <Image
-          src="../assets/imgs/300.png"
+          src="https://dummyimage.com/300x300"
           alt={book.title}
           objectFit="cover"
           borderRadius="md"
